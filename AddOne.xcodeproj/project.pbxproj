@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		51CF9FAE1DC3E35E003B1E4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CF9FAD1DC3E35E003B1E4E /* AppDelegate.swift */; };
 		51CF9FB01DC3E35E003B1E4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CF9FAF1DC3E35E003B1E4E /* ViewController.swift */; };
-		51CF9FB31DC3E35E003B1E4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51CF9FB11DC3E35E003B1E4E /* Main.storyboard */; };
 		51CF9FB51DC3E35E003B1E4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51CF9FB41DC3E35E003B1E4E /* Assets.xcassets */; };
 		51CF9FB81DC3E35E003B1E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51CF9FB61DC3E35E003B1E4E /* LaunchScreen.storyboard */; };
 		51CF9FC31DC3E35E003B1E4E /* AddOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CF9FC21DC3E35E003B1E4E /* AddOneTests.swift */; };
+		51CF9FCF1DC3E4AC003B1E4E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51CF9FCD1DC3E4AC003B1E4E /* MainViewController.swift */; };
+		51CF9FD01DC3E4AC003B1E4E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CF9FCE1DC3E4AC003B1E4E /* MainViewController.xib */; };
+		51CF9FD21DC3F0E2003B1E4E /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 51CF9FD11DC3F0E2003B1E4E /* HVD_Comic_Serif_Pro.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,15 @@
 		51CF9FAA1DC3E35E003B1E4E /* AddOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CF9FAD1DC3E35E003B1E4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51CF9FAF1DC3E35E003B1E4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		51CF9FB21DC3E35E003B1E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51CF9FB41DC3E35E003B1E4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51CF9FB71DC3E35E003B1E4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51CF9FB91DC3E35E003B1E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51CF9FBE1DC3E35E003B1E4E /* AddOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddOneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51CF9FC21DC3E35E003B1E4E /* AddOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOneTests.swift; sourceTree = "<group>"; };
 		51CF9FC41DC3E35E003B1E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51CF9FCD1DC3E4AC003B1E4E /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		51CF9FCE1DC3E4AC003B1E4E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		51CF9FD11DC3F0E2003B1E4E /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HVD_Comic_Serif_Pro.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +81,14 @@
 		51CF9FAC1DC3E35E003B1E4E /* AddOne */ = {
 			isa = PBXGroup;
 			children = (
+				51CF9FD11DC3F0E2003B1E4E /* HVD_Comic_Serif_Pro.otf */,
 				51CF9FAD1DC3E35E003B1E4E /* AppDelegate.swift */,
 				51CF9FAF1DC3E35E003B1E4E /* ViewController.swift */,
-				51CF9FB11DC3E35E003B1E4E /* Main.storyboard */,
 				51CF9FB41DC3E35E003B1E4E /* Assets.xcassets */,
 				51CF9FB61DC3E35E003B1E4E /* LaunchScreen.storyboard */,
 				51CF9FB91DC3E35E003B1E4E /* Info.plist */,
+				51CF9FCD1DC3E4AC003B1E4E /* MainViewController.swift */,
+				51CF9FCE1DC3E4AC003B1E4E /* MainViewController.xib */,
 			);
 			path = AddOne;
 			sourceTree = "<group>";
@@ -146,6 +152,7 @@
 				TargetAttributes = {
 					51CF9FA91DC3E35E003B1E4E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = XN3F428T9E;
 					};
 					51CF9FBD1DC3E35E003B1E4E = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -178,8 +185,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				51CF9FB81DC3E35E003B1E4E /* LaunchScreen.storyboard in Resources */,
+				51CF9FD01DC3E4AC003B1E4E /* MainViewController.xib in Resources */,
+				51CF9FD21DC3F0E2003B1E4E /* HVD_Comic_Serif_Pro.otf in Resources */,
 				51CF9FB51DC3E35E003B1E4E /* Assets.xcassets in Resources */,
-				51CF9FB31DC3E35E003B1E4E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51CF9FCF1DC3E4AC003B1E4E /* MainViewController.swift in Sources */,
 				51CF9FB01DC3E35E003B1E4E /* ViewController.swift in Sources */,
 				51CF9FAE1DC3E35E003B1E4E /* AppDelegate.swift in Sources */,
 			);
@@ -221,14 +230,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		51CF9FB11DC3E35E003B1E4E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51CF9FB21DC3E35E003B1E4E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		51CF9FB61DC3E35E003B1E4E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -327,10 +328,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AddOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.keithba.AddOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -338,10 +342,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = AddOne/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.keithba.AddOne;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
