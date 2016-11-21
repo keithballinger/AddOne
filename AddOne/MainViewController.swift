@@ -17,8 +17,6 @@ class MainViewController: UIViewController {
     
     var score:Int = 0
     
-    var hud:MBPro?
-    
     
     override func viewDidLoad() {
         super.viewDidLoad()
