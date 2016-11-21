@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class MainViewController: UIViewController {
 
     @IBOutlet weak var numbersLabel:UILabel?
@@ -15,6 +16,9 @@ class MainViewController: UIViewController {
     @IBOutlet weak var inputField:UITextField?
     
     var score:Int = 0
+    
+    var hud:MBPro?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()

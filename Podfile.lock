@@ -1,12 +1,22 @@
 PODS:
   - MBProgressHUD (1.0.0)
+  - MobileCenter (0.3.1):
+    - MobileCenter/MobileCenterAnalytics (= 0.3.1)
+    - MobileCenter/MobileCenterCrashes (= 0.3.1)
+  - MobileCenter/MobileCenter (0.3.1)
+  - MobileCenter/MobileCenterAnalytics (0.3.1):
+    - MobileCenter/MobileCenter
+  - MobileCenter/MobileCenterCrashes (0.3.1):
+    - MobileCenter/MobileCenter
 
 DEPENDENCIES:
   - MBProgressHUD
+  - MobileCenter
 
 SPEC CHECKSUMS:
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  MobileCenter: 7e497a76860eda316da3edcd62133bc030c3cc47
 
-PODFILE CHECKSUM: 04bcaa96d34b0b780a2be4686f2d473f8ef23b5d
+PODFILE CHECKSUM: 93eb45938fc7280284d08847de473786ce0f5b65
 
 COCOAPODS: 1.1.1

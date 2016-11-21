@@ -7,6 +7,7 @@ target 'AddOne' do
 
   # Pods for AddOne
   pod 'MBProgressHUD'
+  pod 'MobileCenter'
 
   target 'AddOneTests' do
     inherit! :search_paths
